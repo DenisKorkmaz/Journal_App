@@ -21,7 +21,8 @@ The Journal App includes the following features:
 
 The Journal App is built using the following technologies:
 
-- React: A JavaScript library for building user interfaces.
-- React Router: A library for managing routing in React applications.
-- Local Storage: Used to store journal entries locally in the browser.
-- CSS: Styling the app using CSS for layout and design.
+- **React**: A JavaScript library for building user interfaces. React allows for the creation of reusable components and provides efficient UI updates.
+- **useState**: A React hook function used to manage state variables in functional components.
+- **useLocalStorageState**: A custom hook function that persists state in the browser's local storage.
+- **CSS**: Cascading Style Sheets are used to define the styling of the app.
+
