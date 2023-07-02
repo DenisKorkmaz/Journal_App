@@ -1,6 +1,6 @@
 import { StarEmpty } from "./Star";
 import { StarFilled } from "./StarFilled";
-import "./favorite-button.css";
+import "./favoriteButton.css";
 
 export function FavoriteButton({ id, isFavorite, onToggleFavorite }) {
   return (
