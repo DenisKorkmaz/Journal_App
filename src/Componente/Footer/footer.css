@@ -1,0 +1,15 @@
+footer {
+    position: relative;
+    bottom: 0px;
+    width: 110%;
+    height: 55px;
+    text-align: center;
+    color: var(--color-foam);
+    background-color: var(--color-granite);
+  }
+  
+  .footer__text {
+    margin-top: 18px;
+    color: var(--color-foam);
+  }
+  

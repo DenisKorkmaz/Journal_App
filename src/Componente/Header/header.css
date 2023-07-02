@@ -1,0 +1,13 @@
+header {
+    position: absolute;
+    top: 0px;
+    width: 110%;
+    margin-top: 0px;
+    background-color: var(--color-water-10);
+  }
+  
+  h1 {
+    text-align: center;
+    font-weight: lighter;
+  }
+  

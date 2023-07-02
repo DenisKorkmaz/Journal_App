@@ -1,0 +1,9 @@
+.button__favorite {
+    background-color: var(--color-water-10), 0.8;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 58px;
+    right: 10px;
+  }
+  

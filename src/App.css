@@ -1,0 +1,44 @@
+:root {
+  /* Used for texts (+ footer background) */
+  --color-granite: #252629;
+  /* Used for backgrounds (+ footer text color) */
+  --color-foam: #ffffff;
+  /* Used for buttons, icons, etc. */
+  --color-nemo: #ff4a11;
+  /* active color for buttons, icons, etc. */
+  --color-nemo-mid: #ff5c29;
+  /* hover color for buttons, icons, etc. */
+  --color-nemo-dark: #e5430f;
+  /* Used for borders and some backgrounds */
+  --color-water-10: #e4e8f0;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  font-family: monospace;
+  color: var(--color-granite);
+}
+.entry-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.deleteButton {
+  color: white;
+  background-color: red;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  transition: background-color 0.3s ease;
+  margin-top: auto;
+  margin-bottom: 10px;
+  align-self: flex-end;
+}
+
+.deleteButton:hover {
+  background-color: darkred;
+}

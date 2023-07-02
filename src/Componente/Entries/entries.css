@@ -1,0 +1,14 @@
+section {
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    height: 25vh;
+    width: 100%;
+    border-bottom: solid 0.5px;
+    border-color: var(--color-water-10);
+  }
+  
+  .card__name {
+    margin-top: 20px;
+  }
+  
