@@ -1,0 +1,16 @@
+div {
+    width: 100%;
+    display: flex;
+    margin-top: 36px;
+  }
+  
+  .entries__count {
+    margin: 0px 20px 60px 0px;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  
+  .entries {
+    color: var(--color-nemo);
+  }
+  
